@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome = 1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.glitch.com/4d8de9bb-e3a7-42b0-990b-f45adbdb7853%2F65164402-6bb7-4af2-9957-7557bb5d189a.sketchpad.png?v=1616875342467"
+    />
+    <!-- title is what is shown in tab previews -->
+    <title>Gerald: Help</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <!-- navigation bar -->
+    <div class="topnav">
+      <!-- make sure the links are backward since the CSS aligns them right -->
+      <a href=""><span class="currentLink">Help </span></a>
+      <a href="">Dashboard</a>
+      <a
+        href="https://discord.com/api/oauth2/authorize?client_id=825466560940212294&permissions=8&scope=bot"
+        >Add Gerald</a
+      >
+      <a href="/index.html">Meet Gerald</a>
+    </div>
+    <h1>Gerald Help: Command List</h1>
+  </head>
+  <body>
+    <div>
+      <p class="help">
+        <code>.class create [name]</code> : create class, give the class's list
+        a name<br />
+        <code>.class join [code]</code> : join a class<br />
+        <code>.list show [list]</code> : list all your tasks from just specified
+        list, or from all if no list name given<br />
+        <code>.list add [task] [list]</code> : add task<br />
+        <code>.list finish [task]</code> : Command to check off work (user side
+        only)<br />
+        <code>.list edit [task]</code> : Command to adjust due dates/other
+        attributes of work item<br />
+        <code>.remind [list][task] </code> : Command to create a reminder event
+        (for studying for tests and stuff)<br />
+      </p>
+      <div class="pad">
+        <div class="box">
+          <h1 style="margin:0;  margin-top: 15px; padding: 10px">
+            tip!
+          </h1>
+          <h3 style="margin:0; padding: 0px 10px;">
+            Have a big task that you want to break into subtasks? Instead of
+            <code>list</code>, use <code>bigtask</code>!<br />
+            ex: <code>.bigtask add [task] [list]</code><br />
+            And if you want to add a subtask to a bigtask, use a
+            <code>bigtask</code> name in place of a
+            <code>list</code> name!<br />
+            ex: <code>.bigtask add [task] [bigtask]</code>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <br /><br /><br /><br /><br /><br /><br /><br />
+    <h5 style="margin:0;  margin-top: 80px; padding: 10px">
+      Made by Abhiram Dasari, Elizabeth Zhang, & Jeffrey Wang
+    </h5>
+  </footer>
+</html>
