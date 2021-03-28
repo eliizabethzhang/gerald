@@ -32,35 +32,13 @@
   <body>
     <div>
       <p class="help">
-        <code>.class create [name]</code> : create class, give the class's list
-        a name<br />
-        <code>.class join [code]</code> : join a class<br />
-        <code>.list show [list]</code> : list all your tasks from just specified
-        list, or from all if no list name given<br />
-        <code>.list add [task] [list]</code> : add task<br />
-        <code>.list finish [task]</code> : Command to check off work (user side
-        only)<br />
-        <code>.list edit [task]</code> : Command to adjust due dates/other
-        attributes of work item<br />
-        <code>.remind [list][task] </code> : Command to create a reminder event
-        (for studying for tests and stuff)<br />
+        <code>.classesdelete [class name]</code> : deletes a class by the name classname (alias: .ccreate)<br>
+        <code>.classescreate [class name]</code> : creates a class by the name classname (alias: .cdelete)<br>
+        <code>.taskadd [classnumber] [taskname]</code> : creates a task taskname in class with classnumber (alias: .tadd)<br>
+        <code>.taskdelete [classnumber] [taskname]</code> : deletes the task taskname in class with classnumber (alias: .tdel)<br>
+        <code>.tasklist [classnumber]</code> : lists all of the tasks in the class with classnumber<br>
+        <code>.classeslist</code> : lists all of the classes that are created<br>
       </p>
-      <div class="pad">
-        <div class="box">
-          <h1 style="margin:0;  margin-top: 15px; padding: 10px">
-            tip!
-          </h1>
-          <h3 style="margin:0; padding: 0px 10px; font-size: 20px">
-            Have a big task that you want to break into subtasks? Instead of
-            <code>list</code>, use <code>bigtask</code>!<br />
-            ex: <code>.bigtask add [task] [list]</code><br />
-            And if you want to add a subtask to a bigtask, use a
-            <code>bigtask</code> name in place of a
-            <code>list</code> name!<br />
-            ex: <code>.bigtask add [task] [bigtask]</code>
-          </h3>
-        </div>
-      </div>
     </div>
   </body>
   <footer>
